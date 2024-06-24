@@ -1,0 +1,61 @@
+/* src/pages/MessagePage.css */
+
+.message-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.message-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.message {
+    background-color: #dcf8c6;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 60%;
+}
+
+.message-text {
+    font-size: 16px;
+}
+
+.message-timestamp {
+    font-size: 12px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.message-input-container {
+    display: flex;
+}
+
+.message-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.send-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #34b7f1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #32a3dc;
+}
