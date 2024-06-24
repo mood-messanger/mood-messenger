@@ -15,6 +15,7 @@ const MessagePage = () => {
             console.log(sender_id)
             console.log(receiver_id)
             console.log(message)
+            console.log("Sourabnh")
             const response = axios.post('http://localhost:8080/api/v1/message',  {
                 sender_id: sender_id,
                 receiver_id: receiver_id,
